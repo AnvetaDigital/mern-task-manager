@@ -1,4 +1,4 @@
-const TASK_URL = "http://localhost:5000/api/tasks";
+const TASK_URL = https://mern-task-manager-g0zn.onrender.com
 
 function getAuthHeader() {
   const token = localStorage.getItem("token");
