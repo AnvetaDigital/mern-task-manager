@@ -1,4 +1,4 @@
-const TASK_URL = "https://mern-task-manager-g0zn.onrender.com"
+const TASK_URL = "https://mern-task-manager-g0zn.onrender.com/api/tasks"
 
 function getAuthHeader() {
   const token = localStorage.getItem("token");
