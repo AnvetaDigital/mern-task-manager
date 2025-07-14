@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 connectDB();
 
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://mern-task-manager-1-dd1p.onrender.com',
   credentials: true,
 }));
 
