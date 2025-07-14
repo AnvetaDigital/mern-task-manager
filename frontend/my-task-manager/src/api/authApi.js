@@ -1,4 +1,4 @@
-const AUTH_URL = "https://mern-task-manager-g0zn.onrender.com";
+const AUTH_URL = "https://mern-task-manager-g0zn.onrender.com/api/auth";
 
 export async function registerUser(data) {
   try {
