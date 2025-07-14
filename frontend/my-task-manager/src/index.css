@@ -1,0 +1,153 @@
+/* Shared Form Styles */
+.form-container {
+    max-width: 450px;
+    margin: 80px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fdfdfd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+}
+
+.form-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-button {
+    padding: 12px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-footer {
+    text-align: center;
+    font-size: 14px;
+}
+
+.form-link {
+    color: blue;
+    text-decoration: underline;
+}
+
+.form-message {
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+}
+
+.form-label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+}
+
+/* Specific Modifiers */
+.login-button {
+    background-color: #007bff;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+.register-button {
+    background-color: #28a745;
+}
+
+.register-button:hover {
+    background-color: #1e7e34;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .form-container {
+        margin: 40px 20px;
+        padding: 20px;
+    }
+
+    .form-title {
+        font-size: 24px;
+    }
+
+    .form-input,
+    .form-button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+/* Task Form Styles (Shared) */
+
+.form-textarea,
+.form-select {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+/* Create Button */
+.create-task-button {
+    background-color: #17a2b8;
+}
+
+.create-task-button:hover {
+    background-color: #117a8b;
+}
+
+/* Update Button */
+.update-task-button {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.update-task-button:hover {
+    background-color: #e0a800;
+}
+
+/* Optional: form-title for h3 */
+.form-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.success-msg{
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.error-msg {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
