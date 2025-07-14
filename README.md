@@ -1,22 +1,22 @@
-# 📝 MERN Task Manager
+# MERN Task Manager
 
 A full-stack **Task Management Application** built using the **MERN** (MongoDB, Express.js, React.js, Node.js) stack. This app allows users to register, log in, and manage their daily tasks efficiently.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔐 User Authentication (Register/Login)
-- ➕ Create tasks with:
+-  User Authentication (Register/Login)
+-  Create tasks with:
   - Title
   - Description
   - Due Date
   - Priority (Low, Medium, High)
-- 📋 View all tasks in a paginated table
-- ✏️ Edit or delete tasks
-- ✅ Mark tasks as complete/incomplete
-- 🔎 Filter by status or priority
-- 🔍 Search by title or description
+- View all tasks in a paginated table
+- Edit or delete tasks
+- Mark tasks as complete/incomplete
+- Filter by status or priority
+- Search by title
 
 ---
 
@@ -26,12 +26,12 @@ A full-stack **Task Management Application** built using the **MERN** (MongoDB, 
 |---------------------|---------------------|--------------|
 | React.js            | Node.js + Express.js| MongoDB (Atlas) |
 | React Router        | JWT for Auth        | Mongoose     |
-| Tailwind /Bootstrap | bcryptjs            |              |
+| CSS & MUI           | bcryptjs            |              |
 | Fetch API           | CORS, dotenv        |              |
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```bash
 mern-task-manager/
