@@ -1,4 +1,4 @@
-const AUTH_URL = "http://localhost:5000/api/auth";
+const AUTH_URL = https://mern-task-manager-g0zn.onrender.com;
 
 export async function registerUser(data) {
   try {
