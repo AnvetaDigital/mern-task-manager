@@ -1,7 +1,7 @@
 import Task from '../models/Task.js';
 import dotenv from "dotenv";
 
-dotenv.config({ path: "../.env" });
+dotenv.config();
 
 //Create Task
 export const createTask = async (req, res) => {
