@@ -28,10 +28,10 @@ function LoginForm() {
       localStorage.setItem('user', JSON.stringify(data.user));
       setMessage("Login successful!");
       setTimeout(() => {
-              navigate("/create");
-      },2000)
+        navigate("/dashboard");
+      }, 2000);
     } catch (err) {
-        setMessage(err.message || "Login failed");
+      setMessage(err.message || "Login failed");
     }
   };
 
