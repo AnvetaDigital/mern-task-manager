@@ -1,4 +1,4 @@
-# MERN Task Manager
+# Task Manager
 
 A full-stack **Task Management Application** built using the **MERN** (MongoDB, Express.js, React.js, Node.js) stack. This app allows users to register, log in, and manage their daily tasks efficiently.
 
@@ -44,8 +44,11 @@ mern-task-manager/
 │   └── server.js
 ├── frontend/
 │   └── src/
+│       ├── api/
 │       ├── components/
-│       ├── pages/
-│       └── App.js
+│       └── App.jsx
+│       ├── index.css
+│       └── main.jsx
+|       
 ├── README.md
 └── .gitignore
