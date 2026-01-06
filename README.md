@@ -70,8 +70,7 @@ Create .env file in /backend with the following:
 PORT=5000
 
 # MongoDB connection string (replace with your own cluster or local URI)
-MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/event-tracker
-
+MONGO_URI=mongodb+srv://username:<db_password>@cluster0.lvmci8s.mongodb.net/?appName=Cluster0
 # JWT secret key (replace with a strong random string)
 JWT_SECRET=your_jwt_secret_key
 
@@ -80,7 +79,7 @@ npm start
 
 
 3️⃣ Frontend Setup
-cd ../frontend
+cd ../frontend/mern-task-manager
 npm install
 
 Run frontend:
